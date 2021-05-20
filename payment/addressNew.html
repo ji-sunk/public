@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>힙합퍼 결제 배송지 신규등록</title>
+        <meta name="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <script src="../common/lib/plugin.js"></script>
+        <script src="../common/lib/common.js"></script>
+        <link rel="stylesheet" href="../common/css/common.css">
+        <link rel="stylesheet" href="../common/css/productdetail.css">
+        <link rel="stylesheet" href="https://use.typekit.net/yzy2fux.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&amp;subset=korean">
+    </head>
+    <body>
+        <div id="wrap" class="wd720">
+            <div id="header">
+                <div class="headerWrap popup">
+                    <div class="box_left back">
+                        <p class="header_title">
+                            배송지 변경
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container">
+                <div class="paymtWrap">
+                    <ul class="tab_list clear">
+                        <li><a class="bt-btn" href="address.html">배송지 선택</a></li>
+                        <li class="active"><a class="bt-btn" href="#">신규 주소</a></li>
+                    </ul>
+                    <div class="paymt_modify hitC">
+                        <div class="addr_wrap">
+                        <table>
+                            <caption class="blind">배송지 신규 등록</caption>
+                            <colgroup>
+                                <col style="width:20%">
+                                <col style="width:80%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th><label for="addressee">받는분</label></th>
+                                    <td>
+                                        <div class="mb10">
+                                            <input title="받는분 성함" type="text" id="addressee" name="addressee" placeholder="" >
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label for="number">연락처</label>
+                                    </th>
+                                    <td>
+                                        <div class="input_text_new2 mgb10">
+                                            <input type="text" name="number" id="number" maxlength="12" class="wd100" >
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="last mt10"><label for="address">배송지</label></th>
+                                        <td>
+                                            <div class="mgb10 clear">
+                                                 <div class="input_text_new3">
+                                                     <input type="text" name="address" style="width:100%" title="주소찾기">
+                                                 </div>
+                                                 <div class="addrBtn">
+                                                     <button>주소찾기</button>
+                                                 </div>
+                                            </div>
+                                            <div class="mgb10 clear">
+                                                 <input type="text" placeholder="" name="address" id="address" title="주소 입력">
+                                            </div>
+                                            <div class="">
+                                                 <input type="text" placeholder="상세 주소를 입력해주세요." name="address" title="상세 주소 입력">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="last_btn_wrap">
+                            <div class="pr_chk_agree clear">
+                                <input type="checkbox" id="pr_chk" class="sz-custom_check">
+                                <label for="pr_chk" class="sz-custom_label flt_le"></label>
+                                <label for="pr_chk" class="sz-custom_text">기본 배송지로 등록</label>
+                            </div>
+                            <button class="last_btn_white">취소</button>
+                            <button class="last_btn_black">선택</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../common/lib/main.js"></script>
+    </body>
+</html>
